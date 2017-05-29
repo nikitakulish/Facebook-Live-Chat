@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="FB Chat">
+        <title>FB Chat</title>
+        <!-- FONT -->
+        <link href='http://fonts.googleapis.com/css?family=Poppins:200,300,600,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700i" rel="stylesheet">
+
+        <!-- ICON FONTS -->
+        <link rel="stylesheet" href="css/font-awesome.css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel='stylesheet'  href='css/pulse-button.css' type='text/css'/>
+    </head>
+
+    <body>
+        <div class="loader_bg"><div class="loader"></div></div>
+        <div class="bg_image img_08"></div>
+        <div id="particles"></div>
+        <div class="wrapper text-center d_table">
+            <div class="overlay_black_5"></div>
+            <div class="d_table_v color_white one">
+                <h4 class="font_semibold">Facebook Live Chat</h4>
+                <h1 class="title"></h1>
+                <h1 id='text' class="title"></h1>
+                <div class="space_10"></div>
+            </div>
+        </div>
+        <footer class="one">
+            Copyright © 2017 Nikita Kulish | FB Chat
+        </footer>
+        
+        
+        <!-- JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type='text/javascript' src="js/fb-live-chat.min.js"></script>
+        <script type='text/javascript' src="js/fb-live-chat-init.js"></script>
+        
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.particleground.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script>
+            $('#particles').particleground({
+                dotColor: '#d4d5ed',
+                lineColor: '#d4d5ed',
+                density: 15000,
+            });
+        </script>
+    </body>
+</html>

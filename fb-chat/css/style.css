@@ -1,0 +1,263 @@
+@charset "UTF-8";
+
+.color_white {
+  color: #fff; }
+
+.color_black {
+  color: #0b1440; }
+
+.color_blue {
+  color: #2f52ff; }
+
+.color_grey {
+  color: #6f7a82; }
+
+.color_lightgrey {
+  color: #b3b9be; }
+
+.background_white {
+  background: #fff; }
+
+.background_black {
+  background: #0b1440; }
+
+.background_blue {
+  background: #2f52ff; }
+
+.background_grey {
+  background: #6f7a82; }
+
+.bg_no {
+  background: none !important; }
+
+/*
+––––––––––––––––––––––––––––––––––––––––––––––––––
+Common Styles & Initials
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html, body {
+  overflow-x: hidden; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+*:focus {
+  outline: none !important;
+  box-shadow: none !important; }
+
+@media (min-width: 1200px) and (max-width: 2000px) {
+  .container {
+    width: 80%; } }
+@media (min-width: 2001px) {
+  .container {
+    width: 1400px; } }
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+  overflow: hidden;
+  color: #0b1440; }
+
+ul {
+  list-style: none;
+  margin: 0; }
+
+a, a:hover, a:focus {
+  color: inherit;
+  text-decoration: none; }
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; }
+  .wrapper .bg_image {
+    position: absolute; }
+
+.top {
+  position: relative;
+  margin-top: 25vh; }
+
+.bg_image {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+  .bg_image.img_08 {
+    background: url("../img/aa7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+
+
+.overlay_75 {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0b1440;
+  opacity: 0.75; }
+
+.overlay_5 {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0b1440;
+  opacity: 0.5; }
+
+.overlay_b_5 {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0b1440;
+  opacity: 0.5; }
+
+.overlay_black_25 {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.25; }
+
+.overlay_black_5 {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5; }
+
+.overlay_b_75 {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0b1440;
+  opacity: 0.75; }
+
+.space_5 {
+  height: 5vh; }
+
+.space_10 {
+  height: 10vh; }
+
+.title {
+  font-weight: 600; }
+  .title.big {
+    font-size: 45px; }
+  .title#text {
+    height: 45px; }
+  .title .big_2 {
+    font-size: 55px;
+    display: inline-block; }
+
+.serif {
+  font-family: 'Playfair Display', serif; }
+  .serif .font_bold {
+    font-weight: bold; }
+
+.font_bold {
+  font-weight: 700; }
+
+.font_semibold {
+  font-weight: 600; }
+
+.font_light {
+  font-weight: 200; }
+
+button, .btn {
+  padding: 0 25px;
+  line-height: 40px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  background: #2f52ff;
+  box-shadow: 0 2px 20px -10px #0b1440;
+  transition: background 0.3s, box-shadow 0.3s; }
+  button:hover, button:focus, .btn:hover, .btn:focus {
+    color: #fff;
+    background: #0026e2;
+    box-shadow: 0 2px 20px -5px #0b1440; }
+
+.d_table {
+  display: table;
+  width: 100%; }
+
+.d_table_v {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1; }
+
+#particles {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.25; }
+
+#smoky {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+header {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0 5%; }
+
+.brand {
+  height: 30px;
+  margin: 40px 0;
+  display: inline-block; }
+  .brand img {
+    height: 100%;
+    object-fit: contain; }
+
+
+footer {
+  position: absolute;
+  z-index: 1;
+  left: 5%;
+  bottom: 10px;
+  font-size: 10px;
+  text-align: center;
+  color: #6f7a82; }
+
+.info {
+  position: relative;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 10% 20% 10% 20%;
+  color: #fff; }
+
+
