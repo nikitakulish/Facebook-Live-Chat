@@ -1,16 +1,18 @@
-## Project Title
-
-Facebook-Live-Chat
+## Facebook-Live-Chat
 
 Facebook Live Chat is a short code allow put your facebook live chat box on your website, visitors can chat with you via Facebook Messenger. This is easy way to support and keep contact with your customers.
 
 ## Getting Started
 
 Add these files to your project:
+
 -JS
+
 * fb-live-chat.min.js
 * fb-live-chat-init.js
+
 -CSS
+
 * pulse-button.css
 
 ## Customize
